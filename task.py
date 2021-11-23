@@ -1,5 +1,3 @@
-import sqlite3
-
 def create_table(connection):
     try:
         cur = connection.cursor()
